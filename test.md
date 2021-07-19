@@ -1,6 +1,6 @@
 ---
 title: test page
 layout: template
-filename: test.md
+filename: test
 ---
 # Test page
