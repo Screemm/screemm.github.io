@@ -30,10 +30,13 @@
     </header>
     <div class="container">
         <section id="main_content">
-            {% for page in site.pages %}
-                <a href={{ page.filename }}>{{ page.title }}</a>
-            {% endfor %}
-
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    {% for page in site.pages %}
+                        <a href={{ page.filename }}>{{ page.title }}</a>
+                    {% endfor %}
+                </div
+            </nav>
             {{ content }}
         </section>
     </div>
