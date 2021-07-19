@@ -28,9 +28,13 @@
             <h2>Description here...</h2>
         </div>
     </header>
+    <div class="container">
+        <section id="main_content">
+            {% for page in site.pages %}
+                <a href={{ page.filename }}>{{ page.title }}</a>
+            {% endfor %}
 
-{% for page in site.pages %}
-    <a href={{ page.filename }}>{{ page.title }}</a>
-{% endfor %}
-
-{{ content }}
+            {{ content }}
+        </section>
+    </div>
+</body>
