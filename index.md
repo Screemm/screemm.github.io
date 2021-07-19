@@ -1,5 +1,5 @@
 ---
-title: Sheldon's Blog
+title: Home
 layout: template
 filename: /
 ---
