@@ -34,7 +34,9 @@
             <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
                     {% for page in site.pages %}
-                        <a href={{ page.filename }}>{{ page.title }}</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href={{ page.filename }}>{{ page.title }}</a>
+                        </li>
                     {% endfor %}
                 </div>
             </nav>
