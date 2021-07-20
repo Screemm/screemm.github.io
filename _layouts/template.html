@@ -50,6 +50,13 @@
     <div class="container">
         <section id="main_content">
             {{ content }}
+
+            {% for post in site.posts %}
+                <div class="posts-summary">
+                    <a href="{{ post.url }}"><h6>{{ post.title }}</h6></a>
+                    <p>{{ post.excerpt }}</p>
+                </div>
+            {% endfor %}
         </section>
     </div>
     <!--Bootstrap JS-->
