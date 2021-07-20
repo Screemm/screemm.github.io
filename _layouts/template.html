@@ -49,21 +49,6 @@
     </header>
     <div class="container">
         <section id="main_content">
-            <nav class="navbar navbar-dark">
-                <div class="container-fluid">
-                   <li class="nav-item dropdown">
-                       <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           Blog
-                       </a>
-                       <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                       {% for post in site.posts %}
-                           <li>
-                               <a class="dropdown-item" href="{{ post.url }}">{{ post.title }}</a>
-                           </li>
-                       {% endfor %}
-                       </ul>
-                </div>
-            </nav>
             {{ content }}
         </section>
     </div>
