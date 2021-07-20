@@ -2,7 +2,7 @@
 title: Home
 layout: template
 filename: /
-theme: hacker
+remote-theme: jekyll-theme-hacker
 ---
 
 # Test
