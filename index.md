@@ -1,8 +1,6 @@
 ---
 title: Home
-layout: template
+layout: index
 filename: /
 ---
 
-# Test
-Testy McTesterson
