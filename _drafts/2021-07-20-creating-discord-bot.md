@@ -10,7 +10,7 @@ When making a Discord bot, you'll need to create an application, a bot within th
 
 First, you'll want to head to Discord's [developer portal](https://discord.com/developers/applications) and login. If you don't have a Discord account, you'll need to register for one in this window.
 
-Once you're logged in, you'll find yourself on the "Applocations" page. Create an application by clicking "New Application" in the top right corner, enter a name for your project and click "Create".
+Once you're logged in, you'll find yourself on the "Applications" page. Create an application by clicking "New Application" in the top right corner, enter a name for your project and click "Create".
 
 SCREENSHOTS HERE
 
