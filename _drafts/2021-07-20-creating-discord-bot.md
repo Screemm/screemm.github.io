@@ -12,17 +12,23 @@ First, you'll want to head to Discord's [developer portal](https://discord.com/d
 
 Once you're logged in, you'll find yourself on the "Applications" page. Create an application by clicking "New Application" in the top right corner, enter a name for your project and click "Create".
 
-SCREENSHOTS HERE
+![Screenshot 1](https://screemm.github.io/images/Screenshot1.png)
+
+![Screenshot 2](https://screemm.github.io/images/Screenshot2.png)
 
 TA-DA! You've now create your application and are taken to it's "General Information" page.
 
-SCREENSHOT HERE
+![Screenshot 3](https://screemm.github.io/images/Screenshot3.png)
 
 ## Creating your bot
 
 Now, we want to create your bot. On the left panel, click "Bot" and the "Add Bot" button. A popup will ask if you're sure you want to create a bot, as it's irreversible, so go ahead and click "Yes, do it!".
 
-SCREENSHOTS HERE
+![Screenshot 3 Edited](https://screemm.github.io/images/Screenshot3_edit.png)
+
+![Screenshot 4](https://screemm.github.io/images/Screenshot4.png)
+
+![Screenshot 5](https://screemm.github.io/images/Screenshot5.png)
 
 HOORAY! You now have a bot that you can now join to Discord servers!
 
@@ -34,7 +40,7 @@ Click the "Copy" button and copy that straight into your bot's config file.
 
 **NOTE:** If, at any time, you need to regenerate your bot's token (if it's accidentally leaked), you'll need to replace the token within your bot's config file after getting a new token.
 
-SCREENSHOT HERE
+![Screenshot 6](https://screemm.github.io/images/Screenshot6.png)
 
 ## Joining your bot to a Discord server
 
