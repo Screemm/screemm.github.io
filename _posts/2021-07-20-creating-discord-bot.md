@@ -4,11 +4,11 @@ title: Creating a Discord bot
 tags: discord tutorials
 ---
 
-# Table of Contents
+## Table of Contents
 - [Creating your application](#creating-your-application)
-- [Creating your bot](#)
-- [Finding your bot's token](#)
-- [Joining your bot to a Discord server](#)
+- [Creating your bot](#creating-your-bot)
+- [Finding your bot's token](#finding-your-bots-token)
+- [Joining your bot to a Discord server](#joining-your-bot-to-a-discord-server)
 
 When making a Discord bot, you'll need to create an application, a bot within the application and copy the bot's token to your bot's config file. Below, I'll walk you through how to create a bot user in your application.
 
