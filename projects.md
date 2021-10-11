@@ -1,5 +1,7 @@
 ---
 title: Projects
 layout: index
-filename: projects
+filename: /projects
 ---
+
+Projects
