@@ -52,4 +52,4 @@ Click the "Copy" button and copy that straight into your bot's config file.
 
 So now we've done the bulk of the work and want to test our bot on a Discord server, but there's no official Discord documentation, at the time of writing this guide. Now what?
 
-Head on over to [this guide](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) (coming soon!) and we'll take you through that process.
+Head on over to [this guide](https://v12.discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links) (coming soon!) and we'll take you through that process.
