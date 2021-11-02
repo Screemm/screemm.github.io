@@ -5,7 +5,7 @@ filename: /
 ---
 {% capture about %}
 
-## About
+About
 
 kjhasdvlkvafsdkj;v nkjvfbn a;kjfvbakvj bdafv;kjava;kvjav aafva d
 
@@ -13,7 +13,7 @@ kjhasdvlkvafsdkj;v nkjvfbn a;kjfvbakvj bdafv;kjava;kvjav aafva d
 
 {% capture projects %}
 
-## Projects
+Projects
 
 vadfsvaf vasdv asdvasdvava vaasvavdfbgjntyjhbrjtluil j ejeyt
 
