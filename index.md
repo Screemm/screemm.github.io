@@ -3,5 +3,10 @@ title: Home
 layout: index
 filename: /
 ---
+{% capture about %}
+About
+{% endcapture %}
 
-Hello
+{% capture projects %}
+Projects
+{% endcapture %}
