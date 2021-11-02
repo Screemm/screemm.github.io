@@ -49,7 +49,7 @@
             z-index: 1;
         }
         
-        #main_content {
+        .main_content {
             height: 100%;
             width: 100%;
         }
@@ -79,8 +79,11 @@
     </header>
     <div id="content_bg">
         <div class="container">
-            <section id="main_content">
-                {{ content }}
+            <section class="main_content">
+                {{ about }}
+            </section>
+            <section class="main_content">
+                {{ projects }}
             </section>
         </div>
     </div>
