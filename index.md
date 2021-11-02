@@ -4,9 +4,9 @@ layout: index
 filename: /
 ---
 {% capture about %}
-About
+## About
 {% endcapture %}
 
 {% capture projects %}
-Projects
+## Projects
 {% endcapture %}
