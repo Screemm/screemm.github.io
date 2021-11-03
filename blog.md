@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: index
+layout: blog
 filename: /blog
 ---
 
