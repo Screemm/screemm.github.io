@@ -37,7 +37,7 @@
                     <div class="blog-item">
                         <div class="blog-header">{{ post.title }}</div>
                         <div class="blog-body">{{ post.excerpt }}</div>
-                        <div class="blog-footer">Created by {{ post.author }} {{ post.date }}</div>
+                        <div class="blog-footer">Created by {{ post.author }} {{ post.date | date: "%b %d, %Y }}</div>
                     </div>
                 {% endfor %}
             </div>
