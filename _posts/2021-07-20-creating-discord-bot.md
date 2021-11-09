@@ -4,6 +4,7 @@ title: Creating a Discord bot
 tags: discord tutorials
 author: Sheldon J Smith
 excerpt-separator: <!--done-->
+img: blog1.jpg
 ---
 
 ## Introduction
