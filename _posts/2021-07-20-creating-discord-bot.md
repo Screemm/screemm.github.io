@@ -2,6 +2,7 @@
 layout: post
 title: Creating a Discord bot
 tags: discord tutorials
+author: Sheldon J Smith
 ---
 
 ## Table of Contents
