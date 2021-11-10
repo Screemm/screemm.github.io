@@ -11,9 +11,9 @@
                         <div class="card-body">
                             <h5 class="card-title" style="color: initial;">{{ post.title }}</h5>
                             <p class="card-text placeholder-glow" style="color: initial;">
-                                <span>{{ page.excerpt }}</span>
-                                <span>Author - {{ page.author }}</span>
-                                <span>{{ post.date | date: "%d %b, %Y" }}</span>
+                                <span class="col-8">{{ page.excerpt }}</span>
+                                <span class="col-8">Author - {{ page.author }}</span>
+                                <span class="col-8">{{ post.date | date: "%d %b, %Y" }}</span>
                             </p>
                             <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
                         </div>
