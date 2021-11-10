@@ -6,8 +6,6 @@ author: Sheldon J Smith
 img: blog_img1.jpg
 ---
 
-## Introduction
-
 Creating a Discord bot within Discord's developer portal can be daunting for beginners, which is why I've made this guide. Below you'll learn how to make an application, deploy a bot for that application and obtain your bot's token to add to the Discord bot project of your choice.
 
 If there's anything I can improve on, please <a href="mailto:sheldon@sheldon.email">shoot me an email</a>.
