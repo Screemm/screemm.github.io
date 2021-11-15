@@ -5,22 +5,26 @@
     <section id="main-content">
         <div class="container-fluid">
             <div class="container" style="margin-top: 20px;">
-                {% for post in site.posts %}
-                    <div class="card" aria-hidden="true" style="width: 18rem; float: left; margin-right: 20px; margin-left: 20px;">
-                        <img src="assets/images/{{ post.img }}" class="card-img-top" alt="{{ post.title }}">
+                {% if post.tag == "projects" %}
+                
+                {% elsif %}
+                    {% for post in site.posts %}
+                        <div class="card" aria-hidden="true" style="width: 18rem; float: left; margin-right: 20px; margin-left: 20px;">
+                            <img src="assets/images/{{ post.img }}" class="card-img-top" alt="{{ post.title }}">
 
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: initial;">{{ post.title }}</h5>
-                            <p class="card-text" style="color: initial;">
-                                <span class="col-8" style="color: initial;">{{ post.excerpt }}</span>
-                                <hr class="dropdown-divider">
-                                <span class="col-8" style="color: initial;">Author - {{ post.author }}</span><br>
-                                <span class="col-8" style="color: initial;">{{ post.date | date: "%d %b, %Y" }}</span>
-                            </p>
-                            <a href="{{ post.url }}" class="btn btn-primary">Go To Post</a>
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: initial;">{{ post.title }}</h5>
+                                <p class="card-text" style="color: initial;">
+                                    <span class="col-8" style="color: initial;">{{ post.excerpt }}</span>
+                                    <hr class="dropdown-divider">
+                                    <span class="col-8" style="color: initial;">Author - {{ post.author }}</span><br>
+                                    <span class="col-8" style="color: initial;">{{ post.date | date: "%d %b, %Y" }}</span>
+                                </p>
+                                <a href="{{ post.url }}" class="btn btn-primary">Go To Post</a>
+                            </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                {% endif %}
             </div>
         </div>
     </section>
