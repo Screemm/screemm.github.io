@@ -7,11 +7,12 @@
             <div class="container" style="margin-top: 20px;">
                 <div class="row row-cols-3 row-cols-md-3 g-4">
                     <div class="col">
+                        <!-- asjkfh -->
                         {% for post in site.posts %}
                             {% if post.tags contains "projects" %}
                 
                             {% else %}
-                                <div class="card h-100" aria-hidden="true">
+                                <div class="card" aria-hidden="true">
                                     <img src="assets/images/{{ post.img }}" class="card-img-top" alt="{{ post.title }}">
 
                                     <div class="card-body">
