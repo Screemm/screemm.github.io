@@ -11,18 +11,19 @@
                     {% else %}
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
-                                <div class="card h-100" aria-hidden="true" style="width: 18rem; float: left; margin-right: 20px; margin-left: 20px;">
+                                <div class="card h-100" aria-hidden="true">
                                     <img src="assets/images/{{ post.img }}" class="card-img-top" alt="{{ post.title }}">
 
                                     <div class="card-body">
                                         <h5 class="card-title" style="color: initial;">{{ post.title }}</h5>
                                         <p class="card-text" style="color: initial;">
                                             <span class="col-8" style="color: initial;">{{ post.excerpt }}</span>
-                                            <hr class="dropdown-divider">
-                                            <span class="col-8" style="color: initial;">Author - {{ post.author }}</span><br>
-                                            <span class="col-8" style="color: initial;">{{ post.date | date: "%d %b, %Y" }}</span>
                                         </p>
                                         <a href="{{ post.url }}" class="btn btn-primary">Go To Post</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Author - {{ post.author }}</small>
+                                        <small class="text-muted">{{ post.date | date: "%d %b, %Y" }}</small>
                                     </div>
                                 </div>
                             </div>
