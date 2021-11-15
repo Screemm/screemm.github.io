@@ -7,7 +7,9 @@
             <div class="container" style="margin-top: 20px;">
                 <!-- changed again -->
                 {% for post in site.posts %}
-                    {% unless post.tags == "projects" %}
+                    {% if post.tags == "projects" %}
+                
+                    {% else %}
                         <div class="card" aria-hidden="true" style="width: 18rem; float: left; margin-right: 20px; margin-left: 20px;">
                             <img src="assets/images/{{ post.img }}" class="card-img-top" alt="{{ post.title }}">
 
@@ -22,7 +24,7 @@
                                 <a href="{{ post.url }}" class="btn btn-primary">Go To Post</a>
                             </div>
                         </div>
-                    {% endunless %}
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
