@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Creating a Discord bot
+title: Creating a Discord Bot
 tags: discord tutorials
 author: Sheldon J Smith
 excerpt_separator: <!-- excerpt-end -->
 img: blog_img1.jpg
 ---
 
-# Creating a Discord bot
+# Creating a Discord Bot
 
 Creating a Discord bot within Discord's developer portal can be daunting for beginners, which is why I've made this guide.<!-- excerpt-end --> Below you'll learn how to make an application, deploy a bot for that application and obtain your bot's token to add to the Discord bot project of your choice.
 
