@@ -13,12 +13,6 @@ If there's anything I can improve on, please <a href="mailto:sheldon@sheldon.ema
 
 **Security Notice**: Never share your Discord bot's token with anyone! They will be able to maliciously hijack your bot.
 
-### Table of Contents
-* [Creating your application](#creating-your-application)
-* [Creating your bot](#creating-your-bot)
-* [Finding your bot's token](#finding-your-bots-token)
-* [Joining your bot to a Discord server](#joining-your-bot-to-a-discord-server)
-
 When making a Discord bot, you'll need to create an application, a bot within the application and copy the bot's token to your bot's config file. Below, I'll walk you through how to create a bot user in your application.
 
 ### Creating your application
