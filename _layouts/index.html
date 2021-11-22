@@ -1,23 +1,25 @@
 {%- include head.html -%}
 {%- include index-style.html -%}
 <body>
-    <div id="bg"></div>
-    <div id="bg-overlay"></div>
-    <div class="container-fluid h-100" id="main">
-        <div class="row row-cols-1 g-4 h-100">
-            <div class="col h-100 align-middle">
-                {%- include index-header.html -%}
-            </div>
-            {% for post in site.posts %}
-                {% if post.tags contains "index" %}
-                    <div class="col h-100" id="{{ post.quote }}">
-                        <h2 class="text-center">{{ post.title }}</h2>
-                        <span class="text-center">{{ post.excerpt }}</span>
+    <div id="bg">
+        <div id="bg-overlay">
+            <div class="container-fluid h-100" id="main">
+                <div class="row row-cols-1 g-4 h-100">
+                    <div class="col h-100 align-middle">
+                        {%- include index-header.html -%}
                     </div>
-                {% else %}
-            
-                {% endif %}
-            {% endfor %}
+                    {% for post in site.posts %}
+                        {% if post.tags contains "index" %}
+                            <div class="col h-100" id="{{ post.quote }}">
+                                <h2 class="text-center">{{ post.title }}</h2>
+                                <span class="text-center">{{ post.excerpt }}</span>
+                            </div>
+                        {% else %}
+
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
     <!--Bootstrap JS-->
