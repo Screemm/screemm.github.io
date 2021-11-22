@@ -5,7 +5,6 @@
   }
 
   body {
-    background: url(https://sheldonjsmith.com/images/header-bg.jpg) no-repeat fixed center !important;
     color: #c9d1d9 !important;
   }
  
@@ -13,10 +12,20 @@
     min-height: 100%;
   }
  
+  #bg {
+    background: url(https://sheldonjsmith.com/images/header-bg.jpg) no-repeat fixed center !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+ }
+ 
   #bg-overlay {
     background: rgba(33, 37, 41, 0.8) fixed;
     height: 100%;
     width: 100%;
+    position: absolute;
+    z-index: -1;
   }
  
   #main {
