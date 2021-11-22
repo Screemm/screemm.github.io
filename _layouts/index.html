@@ -1,7 +1,7 @@
 {%- include head.html -%}
 {%- include index-style.html -%}
 <body>
-    <div class="container-fluid h-100">
+    <div class="container-fluid h-100" id="main">
         <div class="row row-cols-1 g-4 h-100">
             <div class="col h-100 align-middle">
                 {%- include index-header.html -%}
@@ -17,9 +17,6 @@
                 {% endif %}
             {% endfor %}
         </div>
-    </div>
-    <div class="container">
-        {%- include footer.html -%}
     </div>
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
