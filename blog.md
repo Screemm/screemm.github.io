@@ -5,7 +5,6 @@ filename: /blog
 ---
 
 <div class="container-fluid">
-            <!-- COMMENT -->
             <div class="container" style="margin-top: 20px;">
                 <div class="row row-cols-3 row-cols-md-3 row-cols-sm-1 g-4">
                     {% for post in site.posts %}
