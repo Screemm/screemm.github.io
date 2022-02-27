@@ -1,9 +1,14 @@
 {%- include head.html -%}
-{%- include blog-style.html -%}
+{%- include default-style.html -%}
 <body>
     {%- include header.html -%}
     <section id="main-content">
+        <div class="container-fluid">
+            <div class="container" style="margin-top: 20px;">
         {{ content }}
+            {%- include footer.html -%}
+            </div>
+        </div>
     </section>
                 
     
