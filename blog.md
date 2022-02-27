@@ -1,5 +1,5 @@
 ---
 title: Blog
-layout: default
+layout: blog
 filename: /blog
 ---
