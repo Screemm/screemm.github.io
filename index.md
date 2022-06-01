@@ -6,7 +6,7 @@ filename: /
 
 ## About
 
-Sheldon is currently a Resource Coordinator within the Community Healthcare industry but is seeking a new challenge within cyber security, an industry he is very passionate about.
+Sheldon is currently a Consultant within the cyber security industry with a wealth of knowledge of the Australian Healthcare industry.
 
 Sheldon has held multiple level 1 and level 2 IT support roles since entering the workforce in 2013, spanning 4.5 years, and has filled the rest of his time with client-focused roles which has given him an insight to what is important for some of our society's most vulnerable people.
 
