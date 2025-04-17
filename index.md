@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Docs
 layout: home
 nav_order: 1
 ---
