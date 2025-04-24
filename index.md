@@ -21,3 +21,6 @@ A Node.js package designed to more accurately detect the use of prohibited words
 
 ### `*` Admin Bot (Name TBD)
 A Discord bot built to handle general administrative and moderation activities within a server.
+
+### `+` Fun Bot (Name TBD)
+FUNNNN
