@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Not A Changelog
+title: Random page
 tags: changelog
 ---
 
-# Not A Changelog
+# {{ page.title }}
