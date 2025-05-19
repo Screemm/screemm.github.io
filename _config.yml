@@ -17,3 +17,5 @@ footer_content: "Copyright &copy; 2025 Screem Soft"
 
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+paginate: 10
