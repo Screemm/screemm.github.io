@@ -10,6 +10,8 @@ nav_order: 2
 
 This is a Discord bot that is being actively developed for the Japanese Academy Discord server.
 
+For the changelog and known issues, go to the [Dev Notes]().
+
 ### How does it work?
 
 ⚠️ UNDER CONSTRUCTION ⚠️
