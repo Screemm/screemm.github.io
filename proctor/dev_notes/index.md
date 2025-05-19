@@ -3,6 +3,7 @@ title: Dev Notes
 layout: home
 nav_order: 1
 parent: Proctor
+has_toc: false
 ---
 
 # Developer Notes
