@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Version 2 Feature List
-tags: changelog
+tags: changelog proctor
 permalink: /proctor/dev_notes/changelog/version-2-feature-list
 ---
 
-# {{ post.title }}
+# Version 2 Feature List
 
 Up until now, I haven't really been keeping a changelog for Proctor, however I have had some inspiration to change that. Concequently, as I don't know what has changed between version 1 and version 2, the following is more of a feature list.
 
