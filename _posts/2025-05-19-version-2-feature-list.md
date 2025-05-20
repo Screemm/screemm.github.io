@@ -11,6 +11,17 @@ Up until now, I haven't really been keeping a changelog for Proctor, however I h
 
 ### Slash commands
 
+These commands are logically separated by "admin" activities and general user activities (utils).
+
+#### Admin
+
+These commands are only viewable and executable by users with either `Manage Roles` or up.
+
+- `/give-role` - `Manage Roles command` - This is a backup for the quiz roles not being given correctly.
+- `/quiz-message` - `Administrator command` - Allows an admin to send the embed and components to any channel.
+- `/cleanup` - `Administrator command` - This will delete any thread that is over 1 week (7 days) old, to keep the clutter down.
+
+#### Utils
 - `/stats` - This is intended to be a command that gives a bunch of stats about the quizzes taken, users and terms seen, however is currently broken at the time of posting.
 - `/support` - This will DM the executor of the command an embed and button to open a support ticket with the Proctor Dev Team. All messages then sent to this bot from then on will be sent through to the Proctor Dev Team until the ticket is closed.
 
